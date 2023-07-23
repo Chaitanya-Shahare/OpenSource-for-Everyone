@@ -1,4 +1,4 @@
-# Git vs Github
+# Git vs GitHub
 
 ## Git
 
@@ -9,4 +9,4 @@
 ## Github
 
 - GitHub is a platform for code collaboration! 
-- GitHub uses Git for version control and provides you all sorts of awesome collaboration tools. 
+- GitHub uses Git for version control and provides you with all sorts of awesome collaboration tools. 
