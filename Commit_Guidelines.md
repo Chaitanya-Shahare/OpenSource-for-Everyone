@@ -1,6 +1,6 @@
 #Semantic Commit message style
 
-When you are working in a collabaritive environment , many people actively contribute to the project. Every change you make should be known to others as well as you in the future. So when you **commit** changes to the repository the commit message must be understood and clear. Following the semantic commit message style will keep your commits organized and clear.
+When you are working in a collaborative environment, many people actively contribute to the project. Every change you make should be known to others as well as you in the future. So when you **commit** changes to the repository the commit message must be understood and clear. Following the semantic commit message style will keep your commits organized and clear.
 
 ### Format of a commit message
 
@@ -8,10 +8,10 @@ Format: ```<type>(<scope>): <summary>```
 
 *scope is optional*
 
-#### Example of commit message
+#### Example of the commit message
 
 ```
-feat: add navigation bar
+feat: add a navigation bar
 ^--^  ^------------^
 |     |
 |     +-> Summary 
@@ -19,17 +19,17 @@ feat: add navigation bar
 +-------> Type: chore, docs, feat, fix, refactor, style, or test.
 ```
 
-**Note**: Summary must be in present tense
+**Note**: Summary must be in the present tense
 
 The commit contains the following structural elements, to communicate intent to the consumers 
 
-```fix```: bug fix for the user (This can be corelated with [PATCH](https://semver.org/#summary) in semantic version)
+```fix```: bug fix for the user (This can be correlated with [PATCH](https://semver.org/#summary) in semantic version)
 
 ```docs```: changes in the documentation
 
-```feat```: new feature for the user (This can be corelated with [MINOR](https://semver.org/#summary) in semantic version)
+```feat```: new feature for the user (This can be correlated with [MINOR](https://semver.org/#summary) in semantic version)
 
-```refractor```: refactoring production code, eg. renaming a variable , function name
+```refractor```: refactoring production code, eg. renaming a variable, function name
 
 ```style```: formatting, missing semi colons, etc; no production code change
 
@@ -39,6 +39,6 @@ The commit contains the following structural elements, to communicate intent to 
 
 #### Bonus
 
-```git log --oneline``` : shows all your recent commits in one line ,you can get gist of what changes happened recently.
+```git log --oneline``` : shows all your recent commits in one line, so you can get a gist of what changes happened recently.
 
 ```git log --oneline --graph``` : you can get a graphical view of you commits.
